@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f1e3d" />
+    <title>When the lights go out: Puerto Rico's power grid</title>
+    <meta
+      name="description"
+      content="A plain-language guide to Puerto Rico's power grid for the diaspora: the history, the evidence, and the people building alternatives."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Goudy+Bookletter+1911&family=Montserrat:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <div
+        class="chat"
+        aria-label="A family group chat about an outage in Puerto Rico"
+      >
+        <p class="bubble bubble--in" data-delay="0">
+          Se fue la luz otra vez 😩
+        </p>
+        <p class="bubble bubble--in" data-delay="1">
+          Alguien tiene un cargador??
+        </p>
+        <p class="bubble bubble--out" data-delay="2">
+          Again? What happened this time?
+        </p>
+        <p class="bubble bubble--in" data-delay="3">Quién sabe.</p>
+      </div>
+      <h1>Why do the lights keep going out in Puerto Rico?</h1>
+      <p class="lede">
+        If you hear about outages through family calls, group chats, and social
+        media, this is the story behind them: what happened, what the numbers
+        can and can't tell us, and who is building something better.
+      </p>
+      <p class="lede">
+        This project started with my sister. I grew up in New York City, and in
+        all my years there I lived through only two major blackouts: the
+        Northeast blackout in 2003 and Hurricane Sandy in 2012. Two. Each one
+        felt like a once-in-a-generation event. Then, in 2020, my sister moved
+        to Puerto Rico, and I saw a very different reality. Blackouts and
+        brownouts weren’t events there. They were routine. And alongside them
+        came some of the highest electricity bills I had ever seen. Imagine
+        paying that much for power that might not even stay on. That’s the
+        tension. Hurricane Maria in 2017 exposed just how vulnerable the grid
+        was. In 2021, LUMA Energy took over operation of the transmission and
+        distribution system, and you’d think that would make things clearer. But
+        from the outside, it’s still hard to tell how the system is actually
+        performing, because public outage data is limited and inconsistent. So
+        where does the story go? I’m not here to claim one magic fix. I’m asking
+        a bigger, more hopeful question: what could a resilient, locally driven
+        energy future look like, and what can the diaspora do to help build it?
+      </p>
+      <a class="scroll-cue" href="#history">Start with the history</a>
+    </header>
+
+    <main>
+      <section class="story" id="history" data-mood="0.12">
+        <h2>A grid under strain long before Maria</h2>
+        <p>
+          For decades, one government-owned utility, the Puerto Rico Electric
+          Power Authority (<button
+            class="tip"
+            data-tip="PREPA: the public utility that generated, transmitted, and delivered electricity across the island."
+          >
+            PREPA</button
+          >), ran the whole system. It carried heavy debt and aging equipment,
+          which made maintenance hard to sustain.
+        </p>
+        <ol class="timeline">
+          <li>
+            <h3>2017</h3>
+            <p>
+              PREPA enters restructuring under
+              <button
+                class="tip"
+                data-tip="PROMESA: a federal law that created an oversight board to manage Puerto Rico's debt."
+              >
+                PROMESA</button
+              >. In September, Hurricane Maria causes one of the longest
+              large-scale outages in modern U.S. history. A study in the New
+              England Journal of Medicine estimated deaths after the storm
+              (Kishore et al., 2018).
+            </p>
+          </li>
+          <li>
+            <h3>2019</h3>
+            <p>
+              Act 17 sets a legal path to much more renewable energy and an end
+              to coal.
+            </p>
+          </li>
+          <li>
+            <h3>2021</h3>
+            <p>
+              LUMA Energy takes over
+              <button
+                class="tip"
+                data-tip="Transmission moves power across long distances. Distribution delivers it to homes and businesses. Generation, making the power, is handled separately."
+              >
+                transmission and distribution
+              </button>
+              under a 15-year contract. Generation stays under separate
+              arrangements, so responsibility for your relative's electricity is
+              split across several entities.
+            </p>
+          </li>
+          <li>
+            <h3>2022</h3>
+            <p>
+              Hurricane Fiona causes widespread outages, while localized solar
+              microgrids (such as in Adjuntas) demonstrate resilient backup
+              power.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="story" id="evidence" data-mood="0.3">
+        <h2>What the numbers show, and what they don't</h2>
+        <p>
+          Reliability data does exist, but it comes in different measures,
+          years, and definitions. Here is what we can say, and where the picture
+          gets blurry.
+        </p>
+
+        <figure class="viz viz--hours">
+          <figcaption>
+            <span class="viz-title">About six times as long without power</span>
+            <span class="viz-sub"
+              >Average hours without power per customer, 2025: Puerto Rico (59)
+              vs. the U.S. (10). Source:
+              <button
+                class="tip"
+                data-tip="Self-reported by utilities to the U.S. Energy Information Administration, early release."
+              >
+                EIA-861
+              </button></span
+            >
+          </figcaption>
+          <div class="viz-frame" data-ratio="0.4">
+            <div
+              class="tableauPlaceholder"
+              id="viz1795136309343"
+              style="position: relative"
+            >
+              <noscript
+                ><a href="#"
+                  ><img
+                    alt="PR to US Comparison "
+                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3_&#47;3_sheet&#47;PRtoUSComparison&#47;1_rss.png"
+                    style="border: none" /></a></noscript
+              ><object class="tableauViz" style="display: none">
+                <param
+                  name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F"
+                />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="3_sheet&#47;PRtoUSComparison" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3_&#47;3_sheet&#47;PRtoUSComparison&#47;1.png"
+                />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+              </object>
+            </div>
+          </div>
+        </figure>
+
+        <p>
+          In 2025, the average customer in Puerto Rico went without power for
+          about 59 hours. The average U.S. customer: about 10.
+        </p>
+
+        <figure class="viz viz--trend">
+          <figcaption>
+            <span class="viz-title">A rocky road, not a straight line</span>
+            <span class="viz-sub"
+              >Average minutes without power per customer (<button
+                class="tip"
+                data-tip="SAIDI stands for System Average Interruption Duration Index. It measures the average minutes a customer goes without power in a year."
+              >
+                SAIDI</button
+              >), 2020 to 2025. The 2022 peak reached 9,337 minutes.</span
+            >
+          </figcaption>
+          <div class="viz-frame" data-ratio="0.8">
+            <div
+              class="tableauPlaceholder"
+              id="viz1795136338510"
+              style="position: relative"
+            >
+              <noscript
+                ><a href="#"
+                  ><img
+                    alt="Minutes of Interuptions  "
+                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_sheet&#47;MinutesLost&#47;1_rss.png"
+                    style="border: none" /></a></noscript
+              ><object class="tableauViz" style="display: none">
+                <param
+                  name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F"
+                />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="2_sheet&#47;MinutesLost" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_sheet&#47;MinutesLost&#47;1.png"
+                />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+              </object>
+            </div>
+          </div>
+        </figure>
+
+        <p>
+          Over time, the story is bumpier than "better" or "worse." Outages
+          peaked in 2022, then fell, but they haven't dropped steadily since.
+          The 2020 value of zero may reflect missing data rather than a year
+          without outages, which is exactly why we don't draw a before-and-after
+          conclusion from this one chart.
+        </p>
+
+        <figure class="chart" aria-labelledby="cap-price">
+          <figcaption id="cap-price">
+            <span class="viz-title">The price per kilowatt-hour went up</span>
+            <span class="viz-sub"
+              >Average electricity price in cents per kilowatt-hour, 2016 vs.
+              2024. Source: EIA</span
+            >
+          </figcaption>
+          <div class="bar-row">
+            <span class="bar-label">2016</span
+            ><span class="bar" style="--w: 76.8%"><b>18.5¢</b></span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">2024</span
+            ><span class="bar" style="--w: 100%"><b>24.1¢</b></span>
+          </div>
+        </figure>
+
+        <p>
+          About 93% of the island's generating capacity is fossil fuel, and
+          solar is only about 167 megawatts. That is
+          <button
+            class="tip"
+            data-tip="Capacity is the most a plant could produce, not what it actually produced on a given day."
+          >
+            capacity, not output</button
+          >, so read it as a snapshot.
+        </p>
+
+        <figure class="viz viz--map">
+          <figcaption>
+            <span class="viz-title">Where the power is made</span>
+            <span class="viz-sub"
+              >Power plants across Puerto Rico, by status: operating, standby
+              backup, or out of service.</span
+            >
+          </figcaption>
+          <div class="viz-frame" data-ratio="1">
+            <div
+              class="tableauPlaceholder"
+              id="viz1795136362665"
+              style="position: relative"
+            >
+              <noscript
+                ><a href="#"
+                  ><img
+                    alt="● Operating ● Standby Backup ● Out of Service Expected to Return ● Out of Service Not Expected or Returned "
+                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;1_&#47;1_sheet&#47;PowerDistributionMap&#47;1_rss.png"
+                    style="border: none" /></a></noscript
+              ><object class="tableauViz" style="display: none">
+                <param
+                  name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F"
+                />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="1_sheet&#47;PowerDistributionMap" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;1_&#47;1_sheet&#47;PowerDistributionMap&#47;1.png"
+                />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+              </object>
+            </div>
+          </div>
+        </figure>
+
+        <p class="note">
+          Missing or changed data isn't proof of mismanagement. It could mean
+          different definitions, new technology, or less transparency, and we
+          don't assume which.
+        </p>
+      </section>
+
+      <section class="story" id="future" data-mood="0.8">
+        <h2>What a more resilient grid could look like</h2>
+        <p>
+          No single technology fixes this. Here are the approaches being tried,
+          and what each can realistically offer.
+        </p>
+        <ul class="options">
+          <li>
+            <h3>Solar</h3>
+            <p>Cuts reliance on imported fuel. Needs the grid to carry it.</p>
+          </li>
+          <li>
+            <h3>Batteries</h3>
+            <p>
+              Store power so critical services keep running when the lines go
+              down.
+            </p>
+          </li>
+          <li>
+            <h3>Community systems</h3>
+            <p>
+              Local, small-scale power that keeps neighborhoods lit and puts
+              decisions closer to residents.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="story" id="act" data-mood="1">
+        <h2>What you can do from here</h2>
+        <p>
+          Talk with your family with more context. Follow the people already
+          doing the work, and support them.
+        </p>
+        <ul class="resources">
+          <li>
+            <a
+              href="https://queremossolpr.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://queremossolpr.org/</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://cooperativahidroelectrica.coop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://cooperativahidroelectrica.coop/</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://earthjustice.org/feature/puerto-rico-energy-solar"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://earthjustice.org/feature/puerto-rico-energy-solar
+            </a>
+          </li>
+        </ul>
+        <button class="share" id="share">Send this to a relative</button>
+        <p class="status" id="share-status" role="status"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Built by Tabitha Diaz. Sources: U.S. Energy Information Administration
+        (EIA-861, EIA-860M, price tables), U.S. Census ACS 2024, NREL PR100,
+        Kishore et al. (2018), Puerto Rico Act 17 of 2019.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
